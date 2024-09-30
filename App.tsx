@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { useState } from 'react';
 import { TelaInicial } from './src/components/TelaInicial/TelaInicial';
-import { Formulario } from './src/components/formulario/formulario';
+import { Formulario } from "./src/components/Formulario/Formulario"
 
 export default function App() {
   return (

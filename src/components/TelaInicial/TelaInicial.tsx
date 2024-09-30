@@ -2,7 +2,7 @@ import React from "react";
 import { styles } from "./TelaInicialStyle";
 import { useState } from "react";
 import { Image, TouchableOpacity, Text, View } from "react-native";
-import { Formulario } from "../formulario/formulario";
+import { Formulario } from "../Formulario/Formulario";
 
 export function TelaInicial() {
     const [active, setActive] = useState(false);
